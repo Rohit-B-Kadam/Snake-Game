@@ -7,30 +7,29 @@ Project Statistic:-
 
 Introduction:-
 
-	It is a Game where snake is moving on sceen. You have control to change the direction of snake. Real Game is that you have to increase our snake size and depending upon snake size score will be display.
+   It is a Game where snake is moving on sceen. You have control to change the direction of snake.Real Game is that you have to increase our snake size and depending upon snake size score will be display.
 To increase snake size your snake have to eat food which will display randomly one by one on screen and if you eat your score will increase one by one.
 You can also change the level from 1 to 9. Depending upon level snake speed will increase. Level 1 snake speed will be more than level 9.
 
 How we have done?
 
-	We have use C language with OpenGl. We have use Double Circular link list to store (x,y) point of each cell of snake because we have no idea how much snake cell will be.
+   We have use C language with OpenGl. We have use Double Circular link list to store (x,y) point of each cell of snake because we have no idea how much snake cell will be.
 
 What we have use?
 
 I] Header Function
 	
-	1. #include<stdio.h> 	: For Standard Input and output
-							( printf , scanf )
-	2. #include <stdlib.h>	: For Standard Libaray
-							( malloc  , rand , srand)
-	3. #include <time.h>	: For Time function
-							( nanosleep )
-	4. #include <GL/gl.h>	: Provides basic set of functions
-	
-	5. #include <GL/glu.h>	: Provides high level functions
+1. #include<stdio.h> 	: For Standard Input and output	( printf , scanf )
 
-	6. #include <GL/glut.h>	: Opening windows , managing menus
-							and manging events
+2. #include <stdlib.h>	: For Standard Libaray	( malloc  , rand , srand)
+
+3. #include <time.h>	: For Time function	( nanosleep )
+
+4. #include <GL/gl.h>	: Provides basic set of functions
+	
+5. #include <GL/glu.h>	: Provides high level functions
+
+6. #include <GL/glut.h>	: Opening windows , managing menus and manging events
 
 II] Graphic Inbuilt Function We Have use?
 
