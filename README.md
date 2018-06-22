@@ -1,17 +1,19 @@
 # Snake-Game
--------------------------
-    It is Graphical Snake Game on linux based machine. It is developed in C using OpenGL library.
+It is Graphical Snake Game on linux based machine. It is developed in C using OpenGL.
     
 ## Getting Started
-        
-    Open Graphics Library (OpenGL) is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.   
+Here I will tell you about OpenGL and How to install and run the OpenGL project?
 
-It is a Game where snake is moving on sceen. You have control to change the direction of snake.Real Gameis that you have to increase our snake size and depending upon snake size score will be display. To increase snake size your snake have to eat food which will display randomly one by one on screen and if you eat your score will increase by one.You can also change the level from 1 to 9. Depending upon level snake speed will increase. Level 1 snake speed will be more than level 9 means 1 is highest level and 9 is lowest level
+## OpenGL 
+Open Graphics Library (OpenGL) is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics. OpenGL is 
 
 ## Project Statistic:-
 
-> **Technology**  : C and OpenGL
-> **Platform**    : Linux , Mac
+- **Technology**  : C and OpenGL
+- **Platform**    : Linux , Mac
+
+## About Project
+It is a Game where snake is moving on sceen. You have control to change the direction of snake. Real Game is that you have to increase our snake size and depending upon snake size score will be display. To increase snake size your snake have to eat food which will display randomly one by one on screen and if you eat your score will increase by one.You can also change the level from 1 to 9. Depending upon level snake speed will increase. Level 1 snake speed will be more than level 9 means 1 is highest level and 9 is lowest level
 
 
 ## How we have done?
