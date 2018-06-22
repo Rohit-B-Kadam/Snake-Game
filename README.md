@@ -34,18 +34,33 @@ I] Header Function
 II] Graphic Inbuilt Function We Have use?
 
 1. `glutInit(&argc, argv);`  initializes the grahics toolkit
+
 2. `glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);` single display buffer and RGB mode
+
 3. `glutInitWindowSize(640,480);` initial window size
-4. `glutInitWindowPosition(800,300);`initial position of windows left corner
-5. `glutCreateWindow("Snake Game");`opens a window with title
+
+4. `glutInitWindowPosition(800,300);` initial position of windows left corner
+
+5. `glutCreateWindow("Snake Game");` opens a window with title
+
 6. `glutDisplayFunc(mydisplay);` Registering the display function
-7. `glutSpecialFunc(mySpecialKeyboard);`Registering the special keyboard  function ( like arrow key)
+
+7. `glutSpecialFunc(mySpecialKeyboard);` Registering the special keyboard  function ( like arrow key)
+
 8. `glutKeyboardFunc(myKeyboard);` Registering the keyboard function
+
 9. `glClearColor(0.127, 0.252, 0.0, 0.0);` set the background color
-10. `glClear(GL_COLOR_BUFFER_BIT);`clear the entire window to background color
-11. `glFlush();`the entire data is to be processed and sent for display
-12. `glColor3f(0.0, 0.0, 0.0);`set the drawing color to black;
+
+10. `glClear(GL_COLOR_BUFFER_BIT);` clear the entire window to background color
+
+11. `glFlush();` the entire data is to be processed and sent for display
+
+12. `glColor3f(0.0, 0.0, 0.0);` set the drawing color to black;
+
 13. `glRecti( x-5 ,  y-5 , x+5 , y+5 );`  draw the rectangle on screen 
+
 14. `glBegin(GL_TRIANGLES);` specifies a set of points of triangle
-15. `glVertex2i(x,y);`Giving the point with two integer arguments
-16. `glutPostRedisplay();`Recall callback function
+
+15. `glVertex2i(x,y);` Giving the point with two integer arguments
+
+16. `glutPostRedisplay();` Recall callback function
