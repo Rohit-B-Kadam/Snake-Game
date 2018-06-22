@@ -3,10 +3,6 @@
 	Description		:	Snake game using opengl
 	Technology		:	C , OpenGl
 	Platform		:	Linux
-	Command 	 	
-		compile		:	g++ GameHeader.h
-						g++ snake.c -lGL -lGLU -lglut -o startGame
-		execute		:	./startGame
 
 */
 
@@ -39,9 +35,9 @@ void playDisplay()
 
 void out()
 {
-		playDisplay();
-		printf("\n----GAME OVER----\n");
-		initGame();
+	playDisplay();
+	printf("\n----GAME OVER----\n");
+	initGame();
 }
 
 void quit()
@@ -114,39 +110,44 @@ void mySpecialKeyboard(int key, int x, int y)
 	{
  		switch(key)
 		{ 
-			case GLUT_KEY_RIGHT	: 	if( direction != LEFT )
-									{
-										direction = RIGHT;
-										change_x = 11;
-										change_y = 0;
-									}	
-									break;
+			case GLUT_KEY_RIGHT	: 	
+				if( direction != LEFT )
+				{
+					direction = RIGHT;
+					change_x = 11;
+					change_y = 0;
+				}	
+				break;
 		
-			case GLUT_KEY_LEFT	: 	if( direction != RIGHT )
-									{
-										direction = LEFT;
-										change_x = -11;
-										change_y = 0;
-									}	
-						 			break;
+			case GLUT_KEY_LEFT	: 	
+				if( direction != RIGHT )
+				{
+					direction = LEFT;
+					change_x = -11;
+					change_y = 0;
+				}	
+				break;
 
-	  		case GLUT_KEY_UP	: 	if( direction != DOWN )
-									{
-										direction = UP;
-										change_x = 0;
-										change_y = 11;
-									}		
-								 	break;
+	  		case GLUT_KEY_UP	: 	
+				if( direction != DOWN )
+				{
+					direction = UP;
+					change_x = 0;
+					change_y = 11;
+				}		
+			 	break;
 
-			case GLUT_KEY_DOWN	: 	if( direction != UP )
-									{
-										direction = DOWN;
-										change_x = 0;
-										change_y = -11;
-									}	
-									break;
+			case GLUT_KEY_DOWN	: 	
+				if( direction != UP )
+				{
+					direction = DOWN;
+					change_x = 0;
+					change_y = -11;
+				}	
+				break;
 		}
-	glutPostRedisplay();
+		
+		glutPostRedisplay();
 
 	}
 }
@@ -157,23 +158,27 @@ void myKeyboard(unsigned char key, int x, int y)
 
  	switch(key)
 	{ 
-		case 'p':	if(play)
-					{
-						play = FALSE;
-					}
-					else
-						play = TRUE;
-					break;
+		case 'p':	
+			if(play)
+			{
+				play = FALSE;
+			}
+			else
+				play = TRUE;
+			break;
   		
-  		case 'q':	out();
-  					quit();
-  					break;
+  		case 'q':	
+			out();
+  			quit();
+  			break;
 
   		case '1': case '2': case '3': case '4': case '5': case '6': case '7': case '8': case '9':
-  					speed = (int) key - 48;
-  					break;
+  			speed = (int) key - 48;
+  			break;
+	
 	}
 	glutPostRedisplay();
+
 }
 
 

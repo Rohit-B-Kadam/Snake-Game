@@ -1,19 +1,38 @@
 # Snake-Game
+-------------------------
+    It is Graphical Snake Game on linux based machine. It is developed in C using OpenGL library.
+    
+## Getting Started
+        
+    Open Graphics Library (OpenGL) is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.   
+
+It is a Game where snake is moving on sceen. You have control to change the direction of snake.Real Gameis that you have to increase our snake size and depending upon snake size score will be display. To increase snake size your snake have to eat food which will display randomly one by one on screen and if you eat your score will increase by one.You can also change the level from 1 to 9. Depending upon level snake speed will increase. Level 1 snake speed will be more than level 9 means 1 is highest level and 9 is lowest level
 
 ## Project Statistic:-
 
-1. Technology  : C and OpenGL
-2. Platform    : Linux
+> **Technology**  : C and OpenGL
+> **Platform**    : Linux , Mac
 
-## Introduction:-
-
-   It is a Game where snake is moving on sceen. You have control to change the direction of snake.Real Game is that you have to increase our snake size and depending upon snake size score will be display.
-To increase snake size your snake have to eat food which will display randomly one by one on screen and if you eat your score will increase one by one.
-You can also change the level from 1 to 9. Depending upon level snake speed will increase. Level 1 snake speed will be more than level 9.
 
 ## How we have done?
 
    We have use C language with OpenGl. We have use Double Circular link list to store (x,y) point of each cell of snake because we have no idea how much snake cell will be.
+
+## To Run The Project (Game):-
+	
+### You must have openGL install in your computer.
+
+
+	Author			:	ROHIT BABU KADAM
+	Description		:	Snake game using opengl
+	Technology		:	C , OpenGl
+	Platform		:	Linux
+	Command 	 	
+		compile		:	g++ GameHeader.h
+						g++ snake.c -lGL -lGLU -lglut -o startGame
+		execute		:	./startGame
+
+
 
 ## What we have use?
 
