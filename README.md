@@ -22,7 +22,7 @@ It is a Game where snake is moving on sceen. You have control to change the dire
 ## To Run This Project (Game):-
 	
 ### You must have openGL install in your computer. 
-Follow down the instruction to install openGL on Ubuntu based Operating System
+Below are instructions to install openGL on Ubuntu based Operating System. Put the below command on Linux Terminal.
 
 	sudo apt-get update
 	sudo apt-get upgrade
