@@ -39,7 +39,7 @@ Follow down the instruction to install openGL on Ubuntu based Operating System
 ### Command to execute this project 	 	
 	
 	g++ GameHeader.h
-	g++ snake.c -lGL -lGLU -lglut -o startGame
+	g++ snake.c -lGL -lGLU -lGLEW -lglut -o startGame
 	./startGame
 
 
