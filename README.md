@@ -17,7 +17,7 @@ You can also change the level from 1 to 9. Depending upon level snake speed will
 
 ## What we have use?
 
-I] Header Function
+### I] Header Function
 	
 1. `#include<stdio.h>`		: For Standard Input and output	( printf , scanf )
 
@@ -31,7 +31,7 @@ I] Header Function
 
 6. `#include <GL/glut.h>`	: Opening windows , managing menus and manging events
 
-II] Graphic Inbuilt Function We Have use?
+### II] Graphic Inbuilt Function We Have use?
 
 1. `glutInit(&argc, argv);`  initializes the grahics toolkit
 
