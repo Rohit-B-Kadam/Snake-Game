@@ -33,15 +33,15 @@ You can also change the level from 1 to 9. Depending upon level snake speed will
 
 ### II] Graphic Inbuilt Function We Have use?
 
-1. `glutInit(&argc, argv);`  initializes the grahics toolkit
+1. `glutInit(&argc, argv);`  Initializes the grahics toolkit
 
-2. `glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);` single display buffer and RGB mode
+2. `glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);` Single display buffer and RGB mode
 
-3. `glutInitWindowSize(640,480);` initial window size
+3. `glutInitWindowSize(640,480);` Initial window size
 
-4. `glutInitWindowPosition(800,300);` initial position of windows left corner
+4. `glutInitWindowPosition(800,300);` Initial position of windows left corner
 
-5. `glutCreateWindow("Snake Game");` opens a window with title
+5. `glutCreateWindow("Snake Game");` Opens a window with title
 
 6. `glutDisplayFunc(mydisplay);` Registering the display function
 
@@ -49,17 +49,17 @@ You can also change the level from 1 to 9. Depending upon level snake speed will
 
 8. `glutKeyboardFunc(myKeyboard);` Registering the keyboard function
 
-9. `glClearColor(0.127, 0.252, 0.0, 0.0);` set the background color
+9. `glClearColor(0.127, 0.252, 0.0, 0.0);` Set the background color
 
-10. `glClear(GL_COLOR_BUFFER_BIT);` clear the entire window to background color
+10. `glClear(GL_COLOR_BUFFER_BIT);` Clear the entire window to background color
 
-11. `glFlush();` the entire data is to be processed and sent for display
+11. `glFlush();` The entire data is to be processed and sent for display
 
-12. `glColor3f(0.0, 0.0, 0.0);` set the drawing color to black;
+12. `glColor3f(0.0, 0.0, 0.0);` Set the drawing color to black;
 
-13. `glRecti( x-5 ,  y-5 , x+5 , y+5 );`  draw the rectangle on screen 
+13. `glRecti( x-5 ,  y-5 , x+5 , y+5 );`  Draw the rectangle on screen 
 
-14. `glBegin(GL_TRIANGLES);` specifies a set of points of triangle
+14. `glBegin(GL_TRIANGLES);` Specifies a set of points of triangle
 
 15. `glVertex2i(x,y);` Giving the point with two integer arguments
 
