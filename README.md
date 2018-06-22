@@ -5,34 +5,42 @@ It is Graphical Snake Game on linux based machine. It is developed in C using Op
 Here I will tell you about OpenGL and How to install and run the OpenGL project?
 
 ## OpenGL 
-Open Graphics Library (OpenGL) is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics. OpenGL is 
+Open Graphics Library (OpenGL) is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics. 
 
-## Project Statistic:-
-
-- **Technology**  : C and OpenGL
-- **Platform**    : Linux , Mac
 
 ## About Project
 It is a Game where snake is moving on sceen. You have control to change the direction of snake. Real Game is that you have to increase our snake size and depending upon snake size score will be display. To increase snake size your snake have to eat food which will display randomly one by one on screen and if you eat your score will increase by one.You can also change the level from 1 to 9. Depending upon level snake speed will increase. Level 1 snake speed will be more than level 9 means 1 is highest level and 9 is lowest level
 
+### Project Statistic:-
+- **Description** : Snake game using OpenGL
+- **Technology**  : C and OpenGL
+- **Platform**    : Linux , Mac
 
-## How we have done?
+### How we have done?
+  We have use C language with OpenGl. We have use Double Circular link list to store (x,y) point of each cell of snake because we have no idea how much snake cell will be.
 
-   We have use C language with OpenGl. We have use Double Circular link list to store (x,y) point of each cell of snake because we have no idea how much snake cell will be.
-
-## To Run The Project (Game):-
+## To Run This Project (Game):-
 	
-### You must have openGL install in your computer.
+### You must have openGL install in your computer. 
+Follow down the instruction to install openGL on Ubuntu based Operating System
 
+	sudo apt-get update
+	sudo apt-get upgrade
+	sudo apt-get install freeglut3
+ 	sudo apt-get install freeglut3-dev
+	sudo apt-get install binutils-gold
+ 	sudo apt-get install g++ cmake
+	sudo apt-get install libglew-dev
+ 	sudo apt-get install g++
+ 	sudo apt-get install mesa-common-dev
+ 	sudo apt-get install build-essential
+ 	sudo apt-get install libglew1.5-dev libglm-dev
 
-	Author			:	ROHIT BABU KADAM
-	Description		:	Snake game using opengl
-	Technology		:	C , OpenGl
-	Platform		:	Linux
-	Command 	 	
-		compile		:	g++ GameHeader.h
-						g++ snake.c -lGL -lGLU -lglut -o startGame
-		execute		:	./startGame
+### Command to execute this project 	 	
+	
+	g++ GameHeader.h
+	g++ snake.c -lGL -lGLU -lglut -o startGame
+	./startGame
 
 
 
