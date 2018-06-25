@@ -44,7 +44,7 @@ Below are instructions to install openGL on Ubuntu based Operating System. Put t
 
 
 
-## What we have use?
+## Function Used in Project:
 
 ### I] Header Function
 	
